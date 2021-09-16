@@ -1,4 +1,4 @@
-const workinghours= (res,res)=>{
+const workinghours= (req,res)=>{
     let date=new Date();
     let days=date.getDay();
     let hours=date.getHours();
